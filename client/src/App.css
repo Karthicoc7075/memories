@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img{
+    width:100%;
+    height: auto;
+  }
+
+body{
+    background-color: #f6f6f6;
+
+}
+
+section{
+    width: 100vw;
+    max-width: 1170px;
+    margin: 3rem auto;
+
+}
+
+.grid{
+    display: flex;
+    justify-content: center;
+     flex-direction: column;
+}
+

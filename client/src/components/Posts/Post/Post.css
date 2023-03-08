@@ -1,0 +1,90 @@
+
+.card { 
+    position: relative;
+    border-radius: 10px;
+    background: rgb(255, 255, 255);
+    
+  }
+
+.card_img img {
+  width: 100%;
+  height: 200px;
+  border-radius: 10px;
+  align-self: center;
+}
+
+.overlay-1{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+.overlay-1 .creator{
+  font-size: 20px;
+  font-weight: 800;
+  color: #fff;
+  margin-bottom: 4px;
+}
+
+.overlay-1 .timestamp{
+  font-size: 16px;
+  font-weight: 600;
+  color: #f6f6f6;
+  margin-bottom: 4px;
+}
+
+.overlay-2{
+  position: absolute;
+  top: 10px;
+  right: 20px;
+}
+
+.overlay-2 .MuiSvgIcon-root{
+  font-size: 26px;
+    color: #fff;
+}
+
+.card_details{
+  padding: 1.2rem;
+}
+
+.card_details .tags{
+  display: flex;
+
+}
+
+.card_details .tags > a{
+  text-decoration: none;
+  padding-right: 8px;
+  font-size: 16px;
+  font-weight: 600;
+  color: rgb(82, 82, 82);
+  margin-bottom: 19px;
+}
+
+.card_details .title{
+  font-size: 22px;
+  font-weight: 700;
+  margin-bottom: 12px;
+  align-items:center;
+}
+
+.card_details .message{
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+
+.card_details .buttons{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card_details .buttons .btn{
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+  font-weight: 700;
+  color:#4949FF;
+}

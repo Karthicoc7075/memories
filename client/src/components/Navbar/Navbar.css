@@ -1,0 +1,38 @@
+nav{
+  display: flex;
+  justify-content: center;
+}
+
+nav .container{
+  width: 100%;
+  max-width: 80%;
+  margin: 1rem auto;
+  padding: 0 2rem;
+  height: 60px;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 3px 4px 6px rgb(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+nav a{
+  border: none;
+  border-radius: 6px;
+  padding: 10px ;
+  background-color: #4949FF;
+  color: #fff;
+  text-decoration: none;
+  font-weight: 700;
+  letter-spacing: 0.05rem;
+}
+
+nav button{
+  border: none;
+  border-radius: 6px;
+  padding: 10px ;
+  background-color: #ff4949;
+  color: #fff;
+  text-decoration: none;
+  font-weight: 700;
+  letter-spacing: 0.05rem;
+}
